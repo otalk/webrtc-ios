@@ -10,4 +10,10 @@ Pod::Spec.new do |s|
   s.source_files = "include/**/*.h"
   s.vendored_libraries = "lib/*.a"
   s.requires_arc = false
+  s.library = 'sqlite3', 'stdc++'
+  s.framework = 'AVFoundation', 'AudioToolbox', 'CoreMedia'
+  s.xcconfig     = {
+    'OTHER_LDFLAGS'  => '-stdlib=libstdc++',
+	'ARCHS' => 'armv7'	
+  }
 end
