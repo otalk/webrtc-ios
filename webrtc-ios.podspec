@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.framework = 'AVFoundation', 'AudioToolbox', 'CoreMedia'
   s.xcconfig     = {
     'OTHER_LDFLAGS'  => '-stdlib=libstdc++',
-	'ARCHS' => 'armv7'	
+	'ARCHS' => 'armv7',
+	'ONLY_ACTIVE_ARCH' => 'NO'
   }
 end
