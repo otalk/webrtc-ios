@@ -1,3 +1,7 @@
+#Use https://github.com/pristineio/webrtc-build-scripts instead
+
+(If you use CocoaPods, check out https://cocoapods.org/pods/libjingle_peerconnection)
+
 WebRTC iOS Static libs
 --------------------------
 
