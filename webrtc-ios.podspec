@@ -1,6 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "webrtc-ios"
   s.version      = "5858"
+  s.deprecated = true
   s.summary      = "iOS compiled WebRTC libraries"
   s.homepage     = "https://github.com/steamclock/webrtc-ios"
   s.license      = { :type => "OTHER", :file => "LICENSE" }
